@@ -18,11 +18,10 @@ const queryClient = new QueryClient({
   },
 });
 
-// UI slice for view mode, pagination and filters
 const uiSlice = createSlice({
   name: 'ui',
   initialState: {
-    viewMode: 'table', // 'table' | 'grid'
+    viewMode: 'table',
     page: 0,
     rowsPerPage: 10,
     searchTerm: '',

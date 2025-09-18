@@ -37,7 +37,6 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
       <header className="bg-white shadow-soft border-b border-gray-200 sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
@@ -55,7 +54,6 @@ function App() {
               </div>
             </div>
             
-            {/* Mobile menu button could go here if needed */}
             <div className="flex items-center space-x-4">
               <div className="hidden sm:flex items-center space-x-2 text-sm text-gray-500">
                 <span className="w-2 h-2 bg-success-500 rounded-full"></span>
@@ -66,7 +64,6 @@ function App() {
         </div>
       </header>
 
-      {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         <div className="animate-fade-in">
           <Routes>
@@ -84,7 +81,6 @@ function App() {
         </div>
       </main>
 
-      {/* Modals */}
       {bookModalOpen && (
         <BookModal
           open={bookModalOpen}

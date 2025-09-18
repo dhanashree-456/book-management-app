@@ -16,7 +16,6 @@ const DeleteConfirmDialog = ({ open, onClose, book }) => {
 
   const isLoading = deleteBookMutation.isPending;
 
-  // Handle escape key
   useEffect(() => {
     const handleEscape = (e) => {
       if (e.key === 'Escape') {
@@ -43,7 +42,6 @@ const DeleteConfirmDialog = ({ open, onClose, book }) => {
         className="modal-content w-full max-w-md mx-4 animate-slide-up"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header */}
         <div className="flex items-center justify-between p-6 border-b border-gray-200">
           <div className="flex items-center gap-3">
             <div className="flex-shrink-0 w-10 h-10 bg-warning-100 rounded-full flex items-center justify-center">
@@ -62,7 +60,6 @@ const DeleteConfirmDialog = ({ open, onClose, book }) => {
           </button>
         </div>
 
-        {/* Content */}
         <div className="p-6">
           <div className="space-y-4">
             <p className="text-gray-900">
@@ -86,7 +83,6 @@ const DeleteConfirmDialog = ({ open, onClose, book }) => {
           </div>
         </div>
 
-        {/* Footer */}
         <div className="flex flex-col-reverse sm:flex-row sm:justify-end gap-3 p-6 pt-0">
           <button
             onClick={onClose}

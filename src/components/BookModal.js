@@ -78,7 +78,6 @@ const BookModal = ({ open, onClose, book = null }) => {
     'Other',
   ];
 
-  // Handle escape key
   useEffect(() => {
     const handleEscape = (e) => {
       if (e.key === 'Escape') {
@@ -105,7 +104,6 @@ const BookModal = ({ open, onClose, book = null }) => {
         className="modal-content w-full max-w-2xl mx-4 animate-slide-up"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header */}
         <div className="flex items-center justify-between p-6 border-b border-gray-200">
           <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">
             {isEditing ? 'Edit Book' : 'Add New Book'}
@@ -119,10 +117,8 @@ const BookModal = ({ open, onClose, book = null }) => {
           </button>
         </div>
 
-        {/* Form */}
         <form onSubmit={formik.handleSubmit} className="p-6">
           <div className="space-y-6">
-            {/* Title */}
             <div>
               <label htmlFor="title" className="block text-sm font-medium text-gray-700 mb-2">
                 Title *
@@ -144,7 +140,6 @@ const BookModal = ({ open, onClose, book = null }) => {
               )}
             </div>
 
-            {/* Author */}
             <div>
               <label htmlFor="author" className="block text-sm font-medium text-gray-700 mb-2">
                 Author *
@@ -166,7 +161,6 @@ const BookModal = ({ open, onClose, book = null }) => {
               )}
             </div>
 
-            {/* Genre and Year Row */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
               <div>
                 <label htmlFor="genre" className="block text-sm font-medium text-gray-700 mb-2">
@@ -218,7 +212,6 @@ const BookModal = ({ open, onClose, book = null }) => {
               </div>
             </div>
 
-            {/* Status */}
             <div>
               <label htmlFor="status" className="block text-sm font-medium text-gray-700 mb-2">
                 Status *
@@ -241,7 +234,6 @@ const BookModal = ({ open, onClose, book = null }) => {
               )}
             </div>
 
-            {/* Cover Image URL */}
             <div>
               <label htmlFor="coverImage" className="block text-sm font-medium text-gray-700 mb-2">
                 Cover Image URL
@@ -266,7 +258,6 @@ const BookModal = ({ open, onClose, book = null }) => {
               </p>
             </div>
 
-            {/* Description */}
             <div>
               <label htmlFor="description" className="block text-sm font-medium text-gray-700 mb-2">
                 Description
@@ -289,7 +280,6 @@ const BookModal = ({ open, onClose, book = null }) => {
             </div>
           </div>
 
-          {/* Footer */}
           <div className="flex flex-col-reverse sm:flex-row sm:justify-end gap-3 mt-8 pt-6 border-t border-gray-200">
             <button
               type="button"

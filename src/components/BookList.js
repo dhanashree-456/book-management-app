@@ -23,13 +23,11 @@ const BookList = ({ onEdit, onDelete, onAdd }) => {
   const { data: books = [], isLoading, error } = useBooks();
   const [showMobileFilters, setShowMobileFilters] = useState(false);
 
-  // Get unique genres for filter dropdown
   const uniqueGenres = useMemo(() => {
     const genres = books.map(book => book.genre).filter(Boolean);
     return [...new Set(genres)];
   }, [books]);
 
-  // Filter and search books
   const filteredBooks = useMemo(() => {
     return books.filter(book => {
       const matchesSearch = 
@@ -43,7 +41,6 @@ const BookList = ({ onEdit, onDelete, onAdd }) => {
     });
   }, [books, searchTerm, genreFilter, statusFilter]);
 
-  // Paginated books
   const paginatedBooks = useMemo(() => {
     const startIndex = page * rowsPerPage;
     return filteredBooks.slice(startIndex, startIndex + rowsPerPage);
@@ -82,7 +79,6 @@ const BookList = ({ onEdit, onDelete, onAdd }) => {
 
   return (
     <div className="space-y-6">
-      {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
@@ -94,7 +90,6 @@ const BookList = ({ onEdit, onDelete, onAdd }) => {
         </div>
         
         <div className="flex items-center gap-3">
-          {/* View Toggle - Hidden on mobile */}
           <div className="hidden sm:flex bg-gray-100 rounded-lg p-1">
             <button
               onClick={() => dispatch(setViewMode('table'))}
@@ -129,10 +124,8 @@ const BookList = ({ onEdit, onDelete, onAdd }) => {
         </div>
       </div>
 
-      {/* Search and Filters */}
       <div className="card p-4 sm:p-6">
         <div className="space-y-4">
-          {/* Search Bar */}
           <div className="relative">
             <MagnifyingGlassIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
             <input
@@ -144,7 +137,6 @@ const BookList = ({ onEdit, onDelete, onAdd }) => {
             />
           </div>
 
-          {/* Mobile Filter Toggle */}
           <div className="sm:hidden">
             <button
               onClick={() => setShowMobileFilters(!showMobileFilters)}
@@ -155,7 +147,6 @@ const BookList = ({ onEdit, onDelete, onAdd }) => {
             </button>
           </div>
 
-          {/* Filters */}
           <div className={`grid grid-cols-1 sm:grid-cols-3 gap-4 ${showMobileFilters ? 'block' : 'hidden sm:grid'}`}>
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">Genre</label>
@@ -193,7 +184,6 @@ const BookList = ({ onEdit, onDelete, onAdd }) => {
         </div>
       </div>
 
-      {/* Content */}
       {paginatedBooks.length === 0 ? (
         <div className="card p-8 text-center">
           <PhotoIcon className="w-12 h-12 text-gray-400 mx-auto mb-4" />
@@ -206,12 +196,10 @@ const BookList = ({ onEdit, onDelete, onAdd }) => {
         </div>
       ) : (
         <>
-          {/* Mobile Card View (default on mobile) */}
           <div className="sm:hidden space-y-4">
             {paginatedBooks.map((book) => (
               <div key={book.id} className="card p-4 animate-slide-up">
                 <div className="flex gap-4">
-                  {/* Book Cover */}
                   <div className="flex-shrink-0 w-16 h-20 bg-gray-200 rounded-md overflow-hidden">
                     {book.coverImage ? (
                       <img
@@ -229,7 +217,6 @@ const BookList = ({ onEdit, onDelete, onAdd }) => {
                     </div>
                   </div>
                   
-                  {/* Book Info */}
                   <div className="flex-1 min-w-0">
                     <h3 className="font-semibold text-gray-900 truncate">{book.title}</h3>
                     <p className="text-sm text-gray-600 truncate">{book.author}</p>
@@ -264,7 +251,6 @@ const BookList = ({ onEdit, onDelete, onAdd }) => {
             ))}
           </div>
 
-          {/* Desktop Table/Grid View */}
           <div className="hidden sm:block">
             {viewMode === 'table' ? (
               <div className="card overflow-hidden">
@@ -419,7 +405,6 @@ const BookList = ({ onEdit, onDelete, onAdd }) => {
         </>
       )}
 
-      {/* Pagination */}
       {totalPages > 1 && (
         <div className="flex items-center justify-between">
           <div className="text-sm text-gray-600">
