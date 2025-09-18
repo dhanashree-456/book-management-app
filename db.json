@@ -1,0 +1,294 @@
+{
+  "books": [
+    {
+      "id": 3,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Fiction",
+      "publishedYear": 1925,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780743273565-M.jpg",
+      "description": "A classic American novel about the Jazz Age and the American Dream."
+    },
+    {
+      "id": 4,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "publishedYear": 1813,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780141439518-M.jpg",
+      "description": "A romantic novel about manners, upbringing, and moral development."
+    },
+    {
+      "id": 5,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Fiction",
+      "publishedYear": 1951,
+      "status": "Issued",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780316769174-M.jpg",
+      "description": "A controversial novel about teenage rebellion and alienation."
+    },
+    {
+      "id": 6,
+      "title": "Lord of the Flies",
+      "author": "William Golding",
+      "genre": "Fiction",
+      "publishedYear": 1954,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780571056866-M.jpg",
+      "description": "A novel about a group of British boys stranded on an uninhabited island."
+    },
+    {
+      "id": 7,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "publishedYear": 1937,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780547928227-M.jpg",
+      "description": "A fantasy adventure about Bilbo Baggins and his unexpected journey."
+    },
+    {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "genre": "Science Fiction",
+      "publishedYear": 1953,
+      "status": "Issued",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9781451673319-M.jpg",
+      "description": "A dystopian novel about a future where books are banned and burned.",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "genre": "Romance",
+      "publishedYear": 1847,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780141441146-M.jpg",
+      "description": "A coming-of-age story following the emotions and experiences of Jane Eyre."
+    },
+    {
+      "id": 10,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "publishedYear": 1954,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780544003415-M.jpg",
+      "description": "An epic high fantasy novel about the quest to destroy the One Ring."
+    },
+    {
+      "id": 11,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Science Fiction",
+      "publishedYear": 1932,
+      "status": "Issued",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780060850524-M.jpg",
+      "description": "A dystopian novel set in a futuristic World State of genetically modified citizens."
+    },
+    {
+      "id": 12,
+      "title": "The Chronicles of Narnia",
+      "author": "C.S. Lewis",
+      "genre": "Fantasy",
+      "publishedYear": 1950,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780064404990-M.jpg",
+      "description": "A series of seven fantasy novels set in the magical land of Narnia."
+    },
+    {
+      "id": 13,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Science Fiction",
+      "publishedYear": 1965,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780441172719-M.jpg",
+      "description": "A science fiction novel set in the distant future amidst a feudal interstellar society."
+    },
+    {
+      "id": 14,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Fiction",
+      "publishedYear": 1988,
+      "status": "Issued",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780061122415-M.jpg",
+      "description": "A philosophical novel about a young Andalusian shepherd's journey to Egypt."
+    },
+    {
+      "id": 15,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "genre": "Fantasy",
+      "publishedYear": 1997,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780439708180-M.jpg",
+      "description": "The first novel in the Harry Potter series about a young wizard's adventures."
+    },
+    {
+      "id": 16,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Thriller",
+      "publishedYear": 2003,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780307474278-M.jpg",
+      "description": "A mystery thriller that follows symbologist Robert Langdon."
+    },
+    {
+      "id": 17,
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "genre": "Fiction",
+      "publishedYear": 2003,
+      "status": "Issued",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9781594631931-M.jpg",
+      "description": "A story of friendship and redemption set against the backdrop of Afghanistan."
+    },
+    {
+      "id": 18,
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "genre": "Thriller",
+      "publishedYear": 2012,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780307588364-M.jpg",
+      "description": "A psychological thriller about a marriage gone terribly wrong."
+    },
+    {
+      "id": 19,
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "genre": "Mystery",
+      "publishedYear": 2005,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780307269751-M.jpg",
+      "description": "A crime thriller featuring journalist Mikael Blomkvist and hacker Lisbeth Salander."
+    },
+    {
+      "id": 20,
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "genre": "Science Fiction",
+      "publishedYear": 2008,
+      "status": "Issued",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780439023528-M.jpg",
+      "description": "A dystopian novel set in a post-apocalyptic nation called Panem."
+    },
+    {
+      "id": 21,
+      "title": "Life of Pi",
+      "author": "Yann Martel",
+      "genre": "Fiction",
+      "publishedYear": 2001,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780156027328-M.jpg",
+      "description": "A survival story about a young man stranded on a lifeboat with a Bengal tiger."
+    },
+    {
+      "id": 22,
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "genre": "Historical Fiction",
+      "publishedYear": 2005,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780375842207-M.jpg",
+      "description": "A story about a young girl living in Nazi Germany, narrated by Death."
+    },
+    {
+      "id": 23,
+      "title": "The Fault in Our Stars",
+      "author": "John Green",
+      "genre": "Romance",
+      "publishedYear": 2012,
+      "status": "Issued",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780525478812-M.jpg",
+      "description": "A love story between two teenagers who meet at a cancer support group."
+    },
+    {
+      "id": 24,
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "genre": "Non-Fiction",
+      "publishedYear": 2011,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780062316097-M.jpg",
+      "description": "A brief history of humankind from the Stone Age to the present."
+    },
+    {
+      "id": 25,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "genre": "Biography",
+      "publishedYear": 2018,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780399590504-M.jpg",
+      "description": "A memoir about a woman who grows up in a survivalist family and eventually earns a PhD."
+    },
+    {
+      "id": 26,
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "genre": "Biography",
+      "publishedYear": 2018,
+      "status": "Issued",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9781524763138-M.jpg",
+      "description": "The memoir of former First Lady Michelle Obama."
+    },
+    {
+      "id": 27,
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "author": "Taylor Jenkins Reid",
+      "genre": "Fiction",
+      "publishedYear": 2017,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9781501161933-M.jpg",
+      "description": "A story about a reclusive Hollywood icon who finally decides to tell her life story."
+    },
+    {
+      "id": 28,
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "genre": "Mystery",
+      "publishedYear": 2018,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780735219090-M.jpg",
+      "description": "A mystery novel about a young woman who raised herself in the marshes of North Carolina."
+    },
+    {
+      "id": 29,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self-Help",
+      "publishedYear": 2018,
+      "status": "Available",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780735211292-M.jpg",
+      "description": "A practical guide to building good habits and breaking bad ones."
+    },
+    {
+      "id": 30,
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "genre": "Thriller",
+      "publishedYear": 2019,
+      "status": "Issued",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9781250301697-M.jpg",
+      "description": "A psychological thriller about a woman who refuses to speak after allegedly murdering her husband."
+    },
+    {
+      "title": "vgf",
+      "author": "gh",
+      "genre": "Fiction",
+      "publishedYear": 1002,
+      "status": "Issued",
+      "coverImage": "",
+      "description": "",
+      "id": 31
+    }
+  ]
+}
